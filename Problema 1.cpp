@@ -6,6 +6,9 @@ int main(){
 	double P;
 	cout<<"Ingrese sus 3 notas"<<endl;
 	cin>> n1;
+	if (n1<0){
+		cout<<"Solo valores positivos";
+    } else{
 	cin>> n2;
 	cin>> n3;
 	P= (n1+n2+n3)/3;
@@ -14,5 +17,6 @@ int main(){
 	} else{
 		cout<<"Usted desaprueba";
 	}
+}
 	return 0;
 }
