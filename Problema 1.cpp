@@ -6,6 +6,7 @@ int main(){
 	double P;
 	cout<<"Ingrese sus 3 notas"<<endl;
 	cin>> n1;
+	//Añadio validaciones en cada nota del estudiante
 	if (n1<0){
 		cout<<"Solo valores positivos";
     } else{
